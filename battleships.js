@@ -160,7 +160,7 @@ function handleKeyPress(e) {
     var fireButton = document.getElementById("FireButton");
     if (e.keyCode === 13) {
         fireButton.click();
-        return false; //false -для того щоб форма не робила нычого лишнього.
+        return false; //false -для того щоб форма не робила нічого лишнього.
     }
 }
 
