@@ -55,7 +55,7 @@ let model = {
         }
         return true
     },
-    generateShipLocations() {  //функція яка керує функціями
+    generateShipLocations() {  //функція яка керує функціями=)
         let locations;
         for (let i = 0; i < this.numShips; i++) {
             do {
@@ -145,13 +145,13 @@ function init() {
     fireButton.onclick = handleFireButton;  //url to button яка виконує при нажатті функцію нижче.
     let guessInput = document.getElementById("quessInput");
     guessInput.onkeydown = handleKeyPress;
-    model.generateShipLocations() // для запуску рандомного розташування
+    model.generateShipLocations() // для запуску рандомного розташування.
 }
 function handleFireButton() {
     let guessInput = document.getElementById("quessInput")
     let guess = guessInput.value;
     controller.processGuess(guess)
-    guessInput.value = "";  //команда для автоочистки форми, щоб не видаляти вручну.
+    guessInput.value = "";  //команда для авточистки форми, щоб не видаляти вручну.
 
 }
 
